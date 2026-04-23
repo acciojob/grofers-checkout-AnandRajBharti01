@@ -21,7 +21,7 @@ let sum = 0;
 // console.log(sum)
 let div = document.createElement("div");
 div.innerText = sum;
-div.className = "prices"
+div.id = "ans"
 document.body.appendChild(div);
 
 
